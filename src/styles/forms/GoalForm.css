@@ -1,0 +1,44 @@
+  .gf1 {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .gform-content {
+    background-color: #f0fff0;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+    text-align: center;
+    position: relative;
+  }
+  
+  .gclose {
+    position: absolute;
+    top: 0.66%;
+    right: 0.99%;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .sumbit {
+    padding: 1.5%;
+    background-color: #55bb55;
+    color: #ffffff
+  }
+  
+  .sumbit:hover {
+    background-color: #448844;
+  }
+
+@media (max-width: 720px) {
+  .gform-content {
+    width: 60%;
+  }
+}

@@ -1,0 +1,45 @@
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0fff0;
+  }
+
+  h1 {
+    margin: 0.99% 0.99% 0.99% 0.99%;
+    font-size: 36px;
+  }
+
+  h2 {
+    color: #448844;
+    padding-left: 1.32%;
+    padding-right: 1.32%;
+    font-size: 32px;
+    margin-top: 0.99%;
+    margin-bottom: 0.495%;
+  }
+  
+  p {
+    color: #559955;
+    padding-left: 2.64%;
+    padding-right: 1.32%;
+    font-size: 18px;
+  }
+
+  h3 {
+    padding-left: 2.64%;
+    color: #337733;
+    font-size: 28px;
+  }
+
+  h4 {
+    padding-left: 2.64%;
+    padding-right: 1.32%;
+    font-size: 24px;
+    color: #337733;
+  }
+
+  button {
+    border-width: 0px;
+    border-radius: 15px;
+  }

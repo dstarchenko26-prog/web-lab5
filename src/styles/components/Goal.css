@@ -1,0 +1,47 @@
+    .goal {
+        display: block;
+        background-color: #eeeeee;
+        border-radius: 15px;
+        border-color: #448844;
+        border-style: solid;
+        border-width: 2px;
+        transition: border-width 0.2s;
+    }
+  
+    .goal:hover {
+        border-width: 5px;
+    }
+  
+    .buttonLine {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 38%;
+        padding-left: 3.33%;
+        padding-right: 3.33%;
+        padding-bottom: 3.33%;
+    }
+  
+    .gButton {
+        display: block;
+        border-radius: 15px;
+        border-color: #448844;
+        border-style: solid;
+        border-width: 1px;
+        transition: border-width 0.2s;
+    }
+
+    .gButton:hover {
+        border-width: 2.5px;
+    }
+  
+    img {
+        max-width: 90%;
+        height: auto;
+    }
+
+    .goal p {
+        color: #559955;
+        padding-left: 4.44%;
+        padding-right: 4.44%;
+        font-size: 18px;
+    }

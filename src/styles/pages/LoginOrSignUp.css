@@ -1,0 +1,65 @@
+#login {
+
+}
+
+.chLogPage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10%;
+    margin: 2% 15% 2% 15%;
+}
+
+.LogBtn {
+    display: block;
+    border-radius: 15px;
+    padding: 20%;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#btnLog {
+    color: #fff;
+    background-color: #66aa66;
+    transition: background-color 0.25s;
+}
+
+#btnReg {
+    border-color: #448844;
+    border-width: 5px;
+    border-style: solid;
+    background-color: initial;
+    color: #448844;
+    transition: background-color 0.25s;
+}
+
+#btnLog:hover {
+    background-color: #99cc99;
+}
+
+#btnReg:hover {
+    background-color: #99cc99;
+}
+
+@media (max-width: 1120px) {
+    .chLogPage {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 3% 20% 3% 20%;
+    }
+}
+
+@media (max-width: 700px) {
+    .LogBtn {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 500px) {
+    .LogBtn {
+        font-size: 20px;
+        
+    }
+
+    .chLogPage {
+        margin: 5% 10% 5% 10%;
+    }
+}

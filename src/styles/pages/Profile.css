@@ -1,0 +1,40 @@
+#profile {
+    display: flex;
+        justify-content: center;
+        margin: 0% 0% 1% 0%;
+}
+
+#card {
+    display: block;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 0.75% 2.5% 1.5% 2.5%;
+    margin: 4.5%;
+    background-color: #eeeeee;
+    border-color: #448844;
+    border-width: 2px;
+}
+
+#card p {
+    padding-left: 5.28%;
+}
+
+.prButtons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10%;
+}
+
+.prButtons button {
+    display: block;
+    border-radius: 15px;
+    background-color: #66aa66;
+    font-size: 16px;
+    color: #fff;
+    padding: 2.5%;
+    transition: background-color 0.2s;
+}
+
+.prButtons button:hover {
+    background-color: #448844;
+}

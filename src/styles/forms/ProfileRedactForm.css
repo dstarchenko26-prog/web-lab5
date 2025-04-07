@@ -1,0 +1,73 @@
+.ProfileRedactForm {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .prf-content {
+    background-color: #f0fff0;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+    text-align: center;
+    position: relative;
+  }
+  
+  .prf-close {
+    position: absolute;
+    top: 0.66%;
+    right: 0.99%;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .prf-pd {
+    margin: 2% 1% 2% 1%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+    padding: 0% 5% 0 5%;
+  }
+
+  .prf-content button {
+    padding: 1.5%;
+    background-color: #55bb55;
+    color: #ffffff
+  }
+  
+  .prf-content button:hover {
+    background-color: #448844;
+  }
+
+  @media (max-width: 1600px) {
+    .prf-content {
+      width: 60%;
+    }
+  }
+  
+  @media (max-width: 1080px) {
+    .prf-pd {
+      gap: 2.5%;
+      padding: 0% 2.5% 0% 2.5%;
+      margin: 1% 0.5% 1% 0.5%
+    }
+  
+    .prf-content {
+      width: 70%;
+    }
+  }
+  
+  @media (max-width: 840px) {
+    .prf-pd {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 15%;
+      padding: 0% 5% 0 5%;
+      margin: 2% 1% 2% 1%;
+    }
+  }

@@ -1,0 +1,115 @@
+    .goalNavigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .panelSelect{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr)
+    }
+
+    #goalFilter {
+        color: #559955;
+        padding-left: 2%;
+        padding-right: 2%;
+        font-size: 18px;
+        margin-top: 18px;
+        margin-bottom: 18px;
+        margin-right: 1%
+    }
+
+    #goalSort {
+        color: #559955;
+        padding-left: 2%;
+        padding-right: 2%;
+        font-size: 18px;
+        margin-top: 18px;
+        margin-bottom: 18px;
+        margin-left: 1%;
+    }
+
+    .goalList {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        column-gap: 0.99%;
+        row-gap: 2.97%;
+        padding-left: 1.32%;
+        padding-right: 1.32%;
+        padding-bottom: 1.32%;
+        margin-bottom: 4.5%;
+    }
+      
+    .addButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4.44% 19.96% 4.44% 19.96%;
+        border-radius: 15px;
+    }
+
+    .goal {
+        display: block;
+        background-color: #eeeeee;
+        border-radius: 15px;
+        border-color: #448844;
+        border-style: solid;
+        border-width: 2px;
+        transition: border-width 0.2s;
+    }
+      
+    .goal:hover {
+        border-width: 5px;
+    }
+
+@media (max-width: 1240px) {
+    .addButton {
+        padding: 4.44% 14% 4.44% 14%;
+    }
+}
+
+@media (max-width: 925px) {
+    .goalList {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .addButton {
+        padding: 4.44% 15% 4.44% 15%;
+    }
+}
+
+@media (max-width: 670px) {
+    .goalList {
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 1%;
+    }
+  }
+
+@media (max-width: 540px) {
+    .addButton {
+        padding: 4.44% 12% 4.44% 12%;;
+    }
+
+    .goalNavigation {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .panelSelect {
+        gap: 10%;
+        margin: 0% 2.5% 0 2.5%
+    }
+}
+
+@media (max-width: 410px) {
+    .goalList {
+      grid-template-columns: repeat(1, 1fr);
+      row-gap: 0.25%;
+    }
+
+    .addButton {
+      padding: 4.44% 18% 4.44% 18%;;
+    }
+  }

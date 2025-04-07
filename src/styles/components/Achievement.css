@@ -1,0 +1,25 @@
+.achievement {
+    display: grid;
+    height: auto;
+    background-color: #eeeeee;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    border-radius: 15px;
+    border-color: #448844;
+    border-style: solid;
+    border-width: 2px;
+    transition: border-width 0.2s;
+  }
+
+  .achImg {
+    margin: 1% 1% 1% 1%;
+    display: flex;
+    max-width: 50%;
+    height: auto;
+    padding: 1% 1% 1% 20%;
+    justify-content: center;
+  }
+
+  .achievement:hover {
+    border-width: 5px;
+  }
