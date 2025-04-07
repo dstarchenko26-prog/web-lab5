@@ -44,11 +44,11 @@ export default function Header() {
 	    <h1>Менеджер з досягнення цілей</h1>
       <nav>
         <ul>
-          <li><Link to="/" className="menu-item" data-desc="Переміщає вас до головної сторінки">Головна</Link></li>
-          <li><Link to="/goals" className="menu-item" data-desc="Переміщає вас до сторінки з вашими цілями">Мої цілі</Link></li>
-          <li><Link to="/progress" className="menu-item" data-desc="Відображає ваші досягнення">Прогрес</Link></li>
-          <li><Link to="/community" className="menu-item" data-desc="Переміщає вас до спільноти">Спільнота</Link></li>
-          <li><Link to={`/profile/${user_id}`} className="menu-item" data-desc="Показує ваш профіль">Профіль</Link></li>
+          <li><Link to="/web-lab5/" className="menu-item" data-desc="Переміщає вас до головної сторінки">Головна</Link></li>
+          <li><Link to="/web-lab5/goals" className="menu-item" data-desc="Переміщає вас до сторінки з вашими цілями">Мої цілі</Link></li>
+          <li><Link to="/web-lab5/progress" className="menu-item" data-desc="Відображає ваші досягнення">Прогрес</Link></li>
+          <li><Link to="/web-lab5/community" className="menu-item" data-desc="Переміщає вас до спільноти">Спільнота</Link></li>
+          <li><Link to={`/web-lab5/profile/${user_id}`} className="menu-item" data-desc="Показує ваш профіль">Профіль</Link></li>
         </ul>
         <p id="description" className="desc">{description}</p>
       </nav>

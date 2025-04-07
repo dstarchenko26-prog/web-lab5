@@ -11,7 +11,7 @@ const LoginOrSignUp = function() {
 
     useEffect (() => {
       if (user) {
-        navigate("/")
+        navigate("/web-lab5/")
       }  
     })
 

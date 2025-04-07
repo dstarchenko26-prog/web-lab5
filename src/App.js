@@ -19,18 +19,18 @@ function App() {
           <Header />
           <main>
             <Routes>
-              <Route path="/" element={<Home />}/>
-              <Route path="/goals" element={<PrivateRoute>
+              <Route path="/web-lab5/" element={<Home />}/>
+              <Route path="/web-lab5/goals" element={<PrivateRoute>
                   <Goals />
                 </PrivateRoute>}/>
-              <Route path="/progress" element={<PrivateRoute>
+              <Route path="/web-lab5/progress" element={<PrivateRoute>
                   <Progress />
                 </PrivateRoute>}/>
-              <Route path="/community" element={<Community />}/>
-              <Route path="/profile/:id" element={<PrivateRoute>
+              <Route path="/web-lab5/community" element={<Community />}/>
+              <Route path="/web-lab5/profile/:id" element={<PrivateRoute>
                   <Profile />
                 </PrivateRoute>}/>
-              <Route path="/loginOrSignUp" element={<LoginOrSignUp />}/>
+              <Route path="/web-lab5/loginOrSignUp" element={<LoginOrSignUp />}/>
             </Routes>
           </main>
           <Footer/>

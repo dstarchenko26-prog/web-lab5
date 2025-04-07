@@ -20,7 +20,7 @@ export default function LoginForm() {
     e.preventDefault();
     try {
       const i = await signInWithEmailAndPassword(auth, email, password);
-      navigate(`/profile/${i.user.uid}`);
+      navigate(`/web-lab5/profile/${i.user.uid}`);
     } catch (error) {
       alert("Помилка: " + error.message);
     }

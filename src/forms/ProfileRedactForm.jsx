@@ -25,7 +25,7 @@ import "../styles/forms/ProfileRedactForm.css"
                 body: JSON.stringify(user)})
             const result = await response.json()
             if (response.ok) {
-                navigate(`/profile/${props.user_id}`)
+                navigate(`/web-lab5/profile/${props.user_id}`)
             } else {
                 alert("!!!")
             }

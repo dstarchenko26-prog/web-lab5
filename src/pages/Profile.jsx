@@ -45,7 +45,7 @@ const Profile = function() {
 
     async function handleOut() {
         await signOut(auth)
-        navigate("/")
+        navigate("/web-lab5/")
     }
 
     function openRedactForm() {

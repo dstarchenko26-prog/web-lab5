@@ -23,7 +23,7 @@ export default function SignUpForm() {
 
             if (response.ok) {
                 await signInWithEmailAndPassword(auth, email, password)
-                navigate(`/profile/${result.uid}`)
+                navigate(`/web-lab5/profile/${result.uid}`)
             } else {
                 alert("Ви вже зареєстровані")
             }
